@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Curso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background: radial-gradient(circle at center, #330000, #000 70%);
+            color: #fff;
+            overflow-x: hidden;
+            animation: pulse 10s infinite alternate;
+            text-align: center; /* Centraliza textos */
+        }
+
+        @keyframes pulse {
+            0% { background: radial-gradient(circle at center, #330000, #000 70%); }
+            50% { background: radial-gradient(circle at center, #660000, #000 70%); }
+            100% { background: radial-gradient(circle at center, #990000, #000 70%); }
+        }
+
+        h1, h2 {
+            color: #ff4c4c; 
+            text-shadow: 1px 1px 5px #ff0000;
+        }
+
+        p {
+            max-width: 700px;
+            margin: 10px auto; /* Centraliza parágrafos */
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #ff0000;
+        }
+
+        a {
+            color: #ff4c4c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul, ol {
+            margin: 0 auto; /* Centraliza listas */
+            display: inline-block; /* Faz a lista ocupar só o necessário */
+            text-align: left; /* Mantém texto das listas alinhado à esquerda */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            background-color: rgba(50, 0, 0, 0.9);
+            color: #fff;
+            box-shadow: 0 0 15px #ff0000;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid #ff0000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #660000;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(100, 0, 0, 0.5);
+        }
+
+        tr:hover {
+            background-color: rgba(255, 0, 0, 0.5);
+        }
+
+        /* Centraliza as imagens na mesma linha */
+        .img-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap; /* Quebra linha se a tela for pequena */
+        }
+    </style>
+</head>
+<body>
+    <h1>Futebol</h1>
+    <p>O futebol é um esporte que aprecio desde a infância. Costumava jogar nas ruas, o que me proporcionava grande alegria. Além disso, acompanho os jogos, especialmente do Flamengo, e sinto diversas emoções, desde frustração quando o time enfrenta dificuldades, até felicidade ao comemorar suas vitórias.</p>
+    <p>Uma curiosidade interessante é que o futebol moderno começou a se organizar na Inglaterra no século XIX, com regras padronizadas que deram origem à Federação Internacional de Futebol (FIFA) em 1904. Desde então, o esporte se espalhou pelo mundo, tornando-se o mais popular e unindo pessoas de diferentes culturas em torno de competições emocionantes.</p>
+   
+    <div class="img-container">
+        <img src="https://i.pinimg.com/736x/ba/5b/71/ba5b71544861ddc9d95e945ceea68ce1.jpg" alt="Imagem de futebol" style="width: 300px;">
+        <img src="https://i.pinimg.com/736x/58/bb/76/58bb763d97e4a1bee4db7b43dc1d8bd5.jpg" alt="Imagem de futebol" style="width: 300px;">
+        <img src="https://i.pinimg.com/736x/42/25/da/4225da1ccddeaa7983a0509e38be6e74.jpg" alt="imagem de futebol" style="width: 300px;">
+    </div>
+
+    <p>Para saber mais sobre futebol, visite o site oficial da FIFA: 
+        <a href="https://www.fifa.com" target="_blank">www.fifa.com</a>
+    </p>
+
+    <h2>Coisas que gosto sobre futebol:</h2>
+    <ul>
+        <li>Jogar com amigos e familiares</li>
+        <li>A emoção das partidas e gols</li>
+        <li>Aprender técnicas e habilidades</li>
+    </ul>
+
+    <h2>Como começar a praticar futebol:</h2>
+    <ol>
+        <li>Adquirir uma bola adequada e roupas confortáveis para jogar.</li>
+        <li>Praticar fundamentos básicos como passes, chutes e dribles.</li>
+        <li>Participar de jogos ou treinos com amigos, clubes ou escolinhas de futebol.</li>
+    </ol>
+
+    <h2>Tabela de jogadores favoritos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Posição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Messi</td>
+                <td>Atacante</td>
+            </tr>
+            <tr>
+                <td>Arrascaeta</td>
+                <td>Meio-campo</td>
+            </tr>
+            <tr>
+                <td>Dybala</td>
+                <td>Meio-campo</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
